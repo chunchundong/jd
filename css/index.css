@@ -1,0 +1,334 @@
+/*广告部分及其布局*/
+
+.jd {
+	/*height: 480px;*/
+	width: 100%;
+	position: relative;
+}
+
+.jd .inner {
+	height: 480px;
+	position: relative;
+	z-index: 2;
+}
+
+.jd .ad {
+	background: url(../img/bg.png) no-repeat top center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.jd .ad a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.jd .ad a:hover {
+	cursor: pointer;
+}
+
+
+/*内容*/
+
+.jd .inner .jd_col1 {
+	width: 190px;
+	height: 450px;
+	background-color: #6e6568;
+	float: left;
+	padding: 15px 0px;
+	overflow: hidden;
+}
+
+.jd .inner .jd_col1 li {
+	width: 172px;
+	height: 26px;
+	line-height: 26px;
+	padding-left: 18px;
+}
+
+.jd .inner .jd_col1 li:hover {
+	background-color: #CCCCCC;
+}
+
+.jd .inner .jd_col1 span {
+	color: white;
+	font-size: 12px;
+}
+
+.jd .inner .jd_col1 a {
+	color: white;
+	font-size: 14px;
+}
+
+.jd .inner .jd_col1 a:hover {
+	color: #f10215;
+}
+
+.jd .inner .jd_col2 {
+	width: 790px;
+	height: 480px;
+	float: left;
+	margin-left: 10px;
+}
+
+.jd .inner .jd_col2 .top {
+	width: 100%;
+	height: 340px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.jd .inner .jd_col2 .top ol {
+	height: 25px;
+	width: 248px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -124px;
+}
+
+.jd .inner .jd_col2 .top li {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: white;
+	float: left;
+	margin: 4px 8px 0;
+}
+
+.jd .inner .jd_col2 .top .current {
+	background-color: #F10215;
+}
+
+.jd .inner .jd_col2 .buttom div {
+	width: 390px;
+	height: 120px;
+	float: left;
+}
+
+.jd .inner .jd_col2 .buttom .bot_two {
+	margin-left: 10px;
+}
+
+.jd .inner .jd_col2 .jiantou {
+	width: 790PX;
+	position: absolute;
+	top: 50%;
+	margin-top: -32px;
+}
+
+.jd .inner .jd_col2 .jiantou a {
+	width: 40px;
+	height: 64px;
+	line-height: 64px;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.jd .inner .jd_col2 .jiantou .jiantou_l {
+	float: left;
+}
+
+.jd .inner .jd_col2 .jiantou .jiantou_r {
+	float: right;
+}
+
+.jd .inner .jd_col3 {
+	width: 190px;
+	height: 480px;
+	background-color: white;
+	float: right;
+}
+
+.user {
+	height: 100px;
+	padding: 10px;
+}
+
+.user .up {
+	height: 50px;
+	position: relative;
+	font-size: 12px;
+	color: #666666;
+}
+
+.user .up .no_login {
+	height: 50px;
+	width: 50px;
+}
+
+.user .up .imgs {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.user .up .no_login img {
+	height: 50px;
+	width: 50px;
+}
+
+.user .up #welcom {
+	margin-left: 60px;
+}
+
+.user .up #welcom p {
+	padding: 10px 0;
+}
+
+.user .up #welcom a {
+	color: #666666;
+}
+
+.down {
+	margin: 18px 0;
+	text-align: center;
+}
+
+.down a {
+	width: 90px;
+	height: 25px;
+	border: 2px solid #F10215;
+	color: #F10215;
+	font-size: 12px;
+	padding: 3px 5px;
+	font-weight: 700;
+}
+
+.down a:hover {
+	color: white;
+	background-color: #F10215;
+}
+
+.news {
+	height: 143px;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	background-color: white;
+	padding: 5px 10px;
+}
+
+.news a {
+	font-size: 12px;
+	color: #666666;
+}
+
+.tab {
+	position: relative;
+	border-bottom: 1px solid #666666;
+	padding: 5px;
+}
+
+.cuxiao {
+	border-right: 1px solid #666666;
+	padding-right: 15px;
+	margin-right: 15px;
+}
+
+.tab .more1 {
+	position: absolute;
+	top: 10px;
+	right: 0;
+}
+
+.line {
+	width: 35px;
+	border-bottom: 2px solid #F10215;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+}
+
+.msg {
+	padding: 5px 0;
+}
+
+.msg li {
+	line-height: 25px;
+}
+
+.service {
+	height: 205px;
+	overflow: hidden;
+}
+
+.service ul {
+	width: 195px;
+}
+
+.service li {
+	width: 47px;
+	height: 68px;
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+
+.service li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #686868;
+}
+
+.service ul li a:hover {
+	color: #F10215;
+}
+
+.service i {
+	width: 23px;
+	height: 23px;
+	background: url(../img/sprite_fs@1x.png) no-repeat 0 0;
+	display: block;
+	margin: 10px auto;
+}
+
+.service li p {
+	text-align: center;
+	font-size: 12px;
+}
+.right_fixed_nav{
+	position: fixed;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.right_fixed_nav li{
+	width: 35px;
+	height: 35px;
+	background: #7a6e6e;
+	float: none;
+	margin-bottom: 1px;
+	border-radius: 3px;
+	position: relative;
+}
+.right_fixed_nav li div{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 25px;
+	height: 34px;
+	background: #c81623;
+	z-index: -1;
+	transition: all 0.4s;
+	border-radius: 3px;
+	padding-left: 10px;
+	color: white;
+	line-height: 35px;
+	font-size: 12px;
+	overflow: hidden;
+}
+.right_fixed_nav li:hover div{
+	width: 90px;
+}

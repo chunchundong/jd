@@ -1,0 +1,456 @@
+.w {
+	width: 1190px;
+	margin: auto;
+}
+
+.fr {
+	float: right;
+}
+
+.fl {
+	float: left;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: #f6f6f6;
+}
+
+.style_red {
+	color: #f10215 !important;
+}
+
+
+/*声明字体,引用字体*/
+
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?1ek0qx');
+	src: url('../fonts/icomoon.eot?1ek0qx#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?1ek0qx') format('truetype'), url('../fonts/icomoon.woff?1ek0qx') format('woff'), url('../fonts/icomoon.svg?1ek0qx#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.iconfont {
+	font-family: "icomoon";
+	font-style: normal;
+	font-size: 14px;
+}
+
+
+/*头部广告*/
+
+.J_event {
+	height: 80px;
+	background-color: #000000;
+}
+
+.J_event a {
+	background: url(../img/11eddb7e85d03df4.jpg);
+	display: block;
+	height: 80px;
+	position: relative;
+	z-index: 10;
+}
+
+.J_event a i {
+	font-family: "icomoon";
+	font-style: normal;
+	color: white;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 0;
+	top: 8px;
+}
+
+
+/*快捷菜单栏*/
+
+.shortcut {
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	background-color: #e3e4e5;
+	border-bottom: 1px solid #dddddd;
+}
+
+.shortcut .w {
+	height: 30px;
+}
+
+.shortcut .fl {
+	margin-left: 210px;
+}
+
+.shortcut .fl i {
+	color: #f10215;
+}
+
+.shortcut .fr li {
+	float: left;
+}
+
+.shortcut .fr li a {
+	color: #999;
+}
+
+.shortcut .fr li a:hover {
+	color: #f10215;
+}
+
+.space {
+	width: 1px;
+	height: 10px;
+	background-color: #cccccc;
+	margin: 10px;
+}
+
+.shortcut .fr .erweima {
+	background: url(../img/mobile_qrcode.png) 50% no-repeat;
+	width: 60px;
+	height: 60px;
+	border: 1px solid #CCCCCC;
+	padding: 3px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+
+/*header部分*/
+
+.header {
+	height: 140px;
+	position: relative;
+}
+
+.header .logo {
+	width: 190px;
+	height: 170px;
+	position: absolute;
+	top: -30px;
+	left: 0;
+	text-indent: -99999em;
+	overflow: hidden;
+	box-shadow: 0 -12px 10px rgba(0, 0, 0, .2);
+}
+
+.header .logo a {
+	background: rgb(255, 255, 255) url(../img/logo.png);
+	width: 190px;
+	height: 170px;
+	display: block;
+}
+
+.header .logo h1 {
+	margin: 0;
+}
+
+.serach {
+	width: 551px;
+	height: 36px;
+	background-color: black;
+	position: absolute;
+	top: 25px;
+	left: 322px;
+	font-size: 14px;
+	color: #CCCCCC;
+}
+
+.serach .creame {
+	position: absolute;
+	left: 468px;
+	top: 8px;
+	font-size: 18px;
+}
+
+.serach .creame:hover {
+	color: #f10215;
+	cursor: pointer;
+}
+
+.serach input {
+	width: 493px;
+	height: 34px;
+	display: block;
+	outline: none;
+	border: 1px solid #f10215;
+	float: left;
+	padding: 0 5px;
+	color: #CCCCCC;
+}
+
+.serach button {
+	float: left;
+	border: none;
+	height: 100%;
+	width: 46px;
+	background-color: #f10215;
+	outline: none;
+}
+
+.serach button i {
+	color: white;
+	font-size: 16px;
+}
+
+.buycar {
+	width: 188px;
+	height: 33px;
+	border: 1px solid #ccc;
+	background-color: white;
+	position: absolute;
+	right: 100px;
+	top: 25px;
+	text-align: center;
+	line-height: 33px;
+	font-size: 14px;
+}
+
+.buycar i {
+	margin-right: 5px;
+	font-size: 16px;
+}
+
+.buycar em {
+	height: 15px;
+	line-height: 15px;
+	/*不加行高的话,会继承父盒子的行高,导致内容掉下来*/
+	background-color: #f10215;
+	position: absolute;
+	left: 143px;
+	top: 6px;
+	padding: 0 3px;
+	border-radius: 6px;
+	font-style: normal;
+	font-size: 12px;
+	color: white;
+}
+
+.hotwords {
+	width: 551px;
+	height: 36px;
+	position: absolute;
+	top: 68px;
+	left: 322px;
+	font-size: 13px;
+}
+
+.hotwords a {
+	color: #999;
+	padding-right: 5px;
+}
+
+.hotwords a:hover {
+	color: #f10215;
+}
+
+.pic {
+	width: 190px;
+	height: 40px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.pic a {
+	background: url(../img/849105c5f53365d3.png) no-repeat;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.navitems {
+	width: 792px;
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	left: 200px;
+}
+
+.navitems ul,
+li {
+	float: left;
+}
+
+.navitems li {
+	margin-left: 25px;
+	font-size: 14px;
+}
+
+.navitems li a {
+	color: #555555;
+}
+
+.navitems li a:hover {
+	color: #f10215;
+}
+
+.navitems .space {
+	margin: 3px -7px 0 18px;
+}
+
+
+/*footer部分*/
+
+.footer {
+	background-color: #eaeaea;
+}
+
+.footer .footer_first {
+	border-bottom: 1px solid #dedede;
+	height: 112px;
+}
+
+.footer .titles li {
+	width: 297px;
+	padding: 30px 0;
+}
+
+.footer .titles .box {
+	width: 206px;
+	height: 40px;
+	margin: auto;
+}
+
+.footer .titles .box h5 {
+	width: 40px;
+	height: 42px;
+	float: left;
+	background: url(../img/ico.png) no-repeat;
+	top: 0;
+	left: 0;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.footer .titles .box p {
+	line-height: 40px;
+	font-weight: 700;
+}
+
+.footer .titles .box .kuai {
+	background-position: 0 -43px;
+}
+
+.footer .titles .box .hao {
+	background-position: 0 -86px;
+}
+
+.footer .titles .box .sheng {
+	background-position: 0 -129px;
+}
+
+.footer .footer_secound {
+	height: 200px;
+	border-bottom: 1px solid #dedede;
+}
+
+.footer .footer_secound dl {
+	float: left;
+	width: 197px;
+}
+
+.footer .footer_secound dt {
+	font-weight: 700;
+	color: #666666;
+	font-size: 14px;
+	padding: 25px 0 15px;
+}
+
+.footer .footer_secound dd a {
+	font-size: 12px;
+	line-height: 22px;
+	color: #666666;
+}
+
+.footer .footer_secound .map {
+	width: 205px;
+	height: 155px;
+	background: url(../img/sprite.footer.png) no-repeat;
+	top: 0;
+	left: 0;
+}
+
+.footer .footer_secound .map dt {
+	text-align: center;
+}
+
+.footer .footer_secound .map dd {
+	width: 175px;
+	height: 50px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #666666;
+	padding-top: 8px;
+}
+
+.footer .footer_secound .map a {
+	float: right;
+}
+
+.footer_third {
+	text-align: center;
+	font-size: 12px;
+}
+
+.footer_third .navs {
+	padding: 19px 0;
+}
+
+.footer_third .navs a {
+	color: #666666;
+}
+
+.footer_third .navs a:hover {
+	color: #f10215;
+}
+
+.footer_third .navs span {
+	color: #ccd1d9;
+}
+
+.footer_third .beian p {
+	color: #999999;
+	line-height: 22px;
+}
+
+.footer_third .jubao {
+	padding: 40px 0;
+}
+
+.footer_third .jubao a {
+	background: url(../img/sprite.footer.png) no-repeat -206px 0;
+	width: 104px;
+	height: 32px;
+	display: inline-block;
+}
+
+.footer_third .jubao .wangluo {
+	background-position: -206px -38px;
+}
+
+.footer_third .jubao .chengxin {
+	background-position: -206px -75px;
+}
+
+.footer_third .jubao .zhongguo {
+	background-position: -206px -112px;
+}
+
+.footer_third .jubao .xiazai {
+	background-position: -206px -148px;
+}
